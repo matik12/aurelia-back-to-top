@@ -1,6 +1,6 @@
 {
   "name": "aurelia-back-to-top",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Plugin for back to top feature",
   "keywords": [
     "aurelia",
@@ -32,7 +32,7 @@
     },
     "dependencies": {
       "aurelia-dependency-injection": "^1.0.0",
-      "jquery": "^3.1.0"
+      "jquery": "^2.2.4"
     },
     "devDependencies": {
       "aurelia-polyfills": "^1.0.0",
