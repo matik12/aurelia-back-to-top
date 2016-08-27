@@ -1,5 +1,9 @@
+[**Contributors needed**: I'm looking for people that are willing to help me maintain and improve this plugin.](https://github.com/matik12/aurelia-back-to-top/issues/1)
+
+---
 
 #### NPM package [aurelia-back-to-top](https://www.npmjs.com/package/aurelia-back-to-top)
+#### In users page, try scrolling to load sample data and show back button -> [Live demo](https://matik12.github.io/aurelia-basic-app-skeleton/)
 
 ## What is aurelia-back-to-top plugin?
 aurelia-back-to-top is a very simple plugin for [Aurelia](http://aurelia.io/) that adds button for scrolling page back to top. This feature can be easily integrate with [infinite scroll](https://github.com/matik12/aurelia-infinite-scroll) loading many elements into table or any other container. Using this button user will still be able to get back to the top of the page very quickly.
@@ -24,8 +28,6 @@ npm install aurelia-back-to-top --save
 
 In your Aurelia configuration file(most commonly main file) add the plugin :
 ```js
-import 'aurelia-back-to-top';
-
 export function configure(aurelia: Aurelia) {
   aurelia.use
     .standardConfiguration()
